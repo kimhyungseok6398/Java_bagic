@@ -10,7 +10,7 @@ public class Ex06_3 {
             c1.number = 7;
 
             Card c2 = new Card();
-            c2.kind = "Spade"; 
+            c2.kind = "Spade";
             c2.number = 4;
 
             System.out.println("c1은 " + c1.kind + ", " + c1.number + "이며 , 크기는 (" + c1.width + "," + c1.height + ")");
