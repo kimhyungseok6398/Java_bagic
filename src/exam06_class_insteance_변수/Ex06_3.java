@@ -1,4 +1,4 @@
-package exam06;
+package exam06_class_insteance_변수;
 
 public class Ex06_3 {
         public static void main(String[] args) {
