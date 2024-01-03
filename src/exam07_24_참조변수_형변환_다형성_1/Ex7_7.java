@@ -9,7 +9,7 @@ public class Ex7_7 {
     fe.Water();
     car = fe; // 자손에서 조상으로 형변환 (생략가능)
     // car.water // car 참조변수로는 water 를 호출 할 수 없다. (없기 때문에)
-        fe2 = (FireEngine) car; // 조상타입 -> 자손으로 형변환(형변환 생략불가)
+     fe2 = (FireEngine) car; // 조상타입 -> 자손으로 형변환(형변환 생략불가)
         fe2.Water(); // 이제 호출 가능
 
 
