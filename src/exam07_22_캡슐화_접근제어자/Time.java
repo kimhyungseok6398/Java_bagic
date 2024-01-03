@@ -5,13 +5,15 @@ public class Time {
      int minute;
      int second;
 
-     public int getHour() {
-          return hour;
-     }
+    public int getHour() {
+        return hour;
+    }
 
-     public void setHour(int hour) {
-          if (hour < 0 || hour > 23) return;
-          this.hour = hour;
+    public void setHour(int hour) {
+        if (hour < 0 || hour > 23) return;
+        this.hour = hour;
 
-     }
+    }
 }
+
+
